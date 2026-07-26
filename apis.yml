@@ -1,7 +1,29 @@
 aid: denta
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/denta.png
 name: Denta
-description: Denta is a company surfaced as a portfolio company of y-combinator and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Denta is a San Francisco-based dental practice management and automation
+  platform, founded by Jack Beecher (Jack Beecher LLC, dba Denta) and backed by
+  Y Combinator (Summer 2026 batch). Positioned as "the dental practice that runs
+  itself," Denta embeds AI into dental organizations to automate back-office
+  operations: it ingests fragmented data from a practice's existing software,
+  provides analytics so dentists can understand their business, and runs in the
+  background to handle administrative work such as insurance payment posting.
+  Its roadmap includes all-in-one native practice management software and an
+  "autonomous dental practice." As of this profile Denta publishes a marketing
+  site, a blog, and login and legal pages, but no public developer portal, API,
+  or OpenAPI surface has been located.
 url: https://raw.githubusercontent.com/api-evangelist/denta/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,14 +31,37 @@ x-backed-by:
 - y-combinator
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-legal-entity: Jack Beecher LLC
+x-website: https://trydenta.com
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Dental
+- Healthcare
+- Healthcare IT
+- Practice Management
+- Analytics
+- Artificial Intelligence
+- Automation
 apis: []
+common:
+- type: Blog
+  url: https://trydenta.com/blog
+- type: Login
+  url: https://trydenta.com/login
+- type: PrivacyPolicy
+  url: https://trydenta.com/privacy
+- type: TermsOfService
+  url: https://trydenta.com/terms
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
