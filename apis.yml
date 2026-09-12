@@ -58,6 +58,8 @@ tags:
 - Automation
 apis: []
 common:
+- type: Website
+  url: https://www.trydenta.com/
 - type: Blog
   url: https://trydenta.com/blog
 - type: Login
