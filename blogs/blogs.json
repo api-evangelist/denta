@@ -2,6 +2,13 @@
   "repo": "denta",
   "feeds": [
     {
+      "source": "https://trydenta.com/blog",
+      "feed_url": "https://trydenta.com/blog",
+      "title": "",
+      "saved": 0,
+      "method": "none"
+    },
+    {
       "source": "https://www.trydenta.com/",
       "feed_url": "https://www.trydenta.com/",
       "title": "",
@@ -17,5 +24,5 @@
     }
   ],
   "post_count": 0,
-  "fetched": "2026-10-03T12:30:02Z"
+  "fetched": "2026-10-10T13:15:00Z"
 }
